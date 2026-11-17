@@ -1,0 +1,31 @@
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Model checkpoints and training outputs
+*.pth
+*.pt
+*.ckpt
+*.safetensors
+runs/
+checkpoints/
+
+# Generated datasets, features, and reports
+*.npy
+*.npz
+*.csv
+*.jpg
+*.jpeg
+*.png
+evaluation_results/
+*_results/
+*_metrics/
+
+# Local secrets and editor files
+.env
+.env.*
+.vscode/
